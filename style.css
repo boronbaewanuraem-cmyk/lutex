@@ -16,7 +16,6 @@ body {
   padding: 50px 0;
 }
 
-
 .main-block > div {
   max-width: 1280px;
   width: 100%;
@@ -24,7 +23,7 @@ body {
 }
 
 header {
-    background-color: #075b61;
+  background-color: #075b61;
 }
 .header {
   /* position: absolute;
@@ -90,7 +89,6 @@ nav a {
   gap: 55px;
 }
 
-
 .text h1 {
   color: white;
 }
@@ -99,8 +97,8 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-   text-align: center;
-   gap: 20px;
+  text-align: center;
+  gap: 20px;
 }
 
 .card img {
@@ -151,8 +149,6 @@ nav a {
     margin-top: 30px;
     width: auto;
   }
-
-
 
   .card {
     width: 100%;
@@ -392,170 +388,258 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
 }
 
 .container {
-    width: 90%;
-    max-width: 880px;
-    margin: 20px auto;
-    padding: 35px 45px;
-    background: #eef1ef;
-    border-radius: 20px;
+  width: 90%;
+  max-width: 880px;
+  margin: 20px auto;
+  padding: 35px 45px;
+  background: #eef1ef;
+  border-radius: 20px;
 }
 
 h1 {
-    text-align: center;
-    color: #075963;
-    font-weight: normal;
-    margin-bottom: 45px;
+  text-align: center;
+  color: #075963;
+  font-weight: normal;
+  margin-bottom: 45px;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
 }
 
 .card {
-    position: relative;
-    width: 50%;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
+  position: relative;
+  width: 50%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .card img {
-    width: 100%;
-    height: 110px;
-    object-fit: cover;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
 }
 
 .sale {
-    position: absolute;
-    top: 18px;
-    right: -5px;
-    background: #dfb55e;
-    color: white;
-    padding: 10px 20px;
-    font-size: 20px;
+  position: absolute;
+  top: 18px;
+  right: -5px;
+  background: #dfb55e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
 }
 
 .info {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 8px;
-    color: #444;
+  display: flex;
+  flex-direction: column;
+  color: #444;
+}
+
+.info img {
+  width: 20px;
+  height: 20px;
 }
 
 .info b {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .info span {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .bottom {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #f5f5f5;
 }
 
 .sizes {
-    display: flex;
-    gap: 10px;
-    flex: 100;
+  display: flex;
+  gap: 10px;
+  flex: 100;
 }
 
 .sizes button {
-    border: none;
-    background: none;
-    color: #999;
-    cursor: pointer;
+  border: none;
+  background: none;
+  color: #999;
+  cursor: pointer;
 }
 
 .sizes button:hover {
-    color: #333;
+  color: #333;
 }
 
 .bottom > button {
-    border: none;
-    background: none;
-    color: #dfb55e;
-    font-size: 20px;
-    cursor: pointer;
+  border: none;
+  background: none;
+  color: #dfb55e;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .arrows {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .arrows button {
-    width: 60px;
-    height: 55px;
-    margin: 5px;
-    border: none;
-    border-radius: 15px;
-    background: #075963;
-    color: white;
-    font-size: 28px;
-    cursor: pointer;
+  width: 60px;
+  height: 55px;
+  margin: 5px;
+  border: none;
+  border-radius: 15px;
+  background: #075963;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .arrows button:hover {
-    background: #08717b;
+  background: #08717b;
 }
 
+.site-footer {
+  background-color: #0b4c4c; /* Глубокий изумрудный цвет фона */
+  color: #ffffff;
+  padding: 40px 60px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 2px solid #cf5d3a; /* Оранжевая рамка как на скриншоте */
+}
 
+/* Верхний ряд */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
+/* Логотип */
+.footer-logo a {
+  font-family: "Georgia", serif; /* Курсивный изящный стиль */
+  font-style: italic;
+  font-size: 32px;
+  color: #dfba81; /* Золотистый цвет */
+  text-decoration: none;
+  font-weight: 300;
+}
 
+/* Меню */
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
 
+.footer-nav a:hover {
+  opacity: 0.8;
+}
 
+/* Центр: почта и иконки */
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+.email-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
 
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
 
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
 
+.social-icons a:hover {
+  transform: scale(1.1);
+}
 
+/* Правая часть: кнопка телефона */
+.phone-btn {
+  display: inline-block;
+  border: 1px solid #dfba81; /* Золотистая рамка */
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: #dfba81;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
 
+.phone-btn:hover {
+  background-color: #dfba81;
+  color: #0b4c4c;
+}
 
+/* Нижний ряд */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.footer-bottom a {
+  color: #a0b5b5; /* Приглушенный цвет текста */
+  text-decoration: none;
+  font-size: 12px;
+}
 
+.footer-bottom a:hover {
+  color: #ffffff;
+}
 
-
-
-
-
-
-
-
-
-
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
